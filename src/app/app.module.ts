@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { BtnPinkComponent } from './btn-pink/btn-pink.component';
 import { InputComponent } from './input/input.component';
 import { LogoComponent } from './logo/logo.component';
+import { RegisterPageComponent } from './register-page/register-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BtnPinkComponent,
     InputComponent,
-    LogoComponent
+    LogoComponent,
+    RegisterPageComponent
   ],
   imports: [
     BrowserModule,
